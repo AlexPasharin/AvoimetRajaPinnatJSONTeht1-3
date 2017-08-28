@@ -1,14 +1,14 @@
-const xmlhttp = new XMLHttpRequest()
-const url = './tyontekijat.json'
+const xmlhttpWorkers = new XMLHttpRequest()
+const workersUrl = 'tyontekijat.json'
 
-xmlhttp.onreadystatechange = () => {
-  if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
-    tableBuilder(JSON.parse(xmlhttp.responseText))
+xmlhttpWorkers.onreadystatechange = () => {
+  if (xmlhttpWorkers.readyState === 4 && xmlhttpWorkers.status === 200) {
+    tableBuilder(JSON.parse(xmlhttpWorkers.responseText))
   }
 }
 
-xmlhttp.open('GET', url, true)
-xmlhttp.send()
+xmlhttpWorkers.open('GET', workersUrl, true)
+xmlhttpWorkers.send()
 
 const tableBuilder = workers => {
   const tbody = document.getElementById('duunarit')
