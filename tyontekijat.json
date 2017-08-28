@@ -1,0 +1,30 @@
+  [
+    {
+      "firstName":"Mauno",
+      "lastName":"Ahonen",
+      "address": "Mannerheimintie 5",
+      "workPhoneNumber": "041 123 45 67",
+      "homePhoneNumber": null
+    },
+    {
+      "firstName":"Matti",
+      "lastName":"Näsä",
+      "address": "Frederikinkatu 38",
+      "workPhoneNumber": "+358 453 12 46",
+      "homePhoneNumber": "044 546 23 19"
+    },
+    {
+      "firstName":"Raimo",
+      "lastName":"Vormisto",
+      "address": "Turuntie 145",
+      "workPhoneNumber": null,
+      "homePhoneNumber": null
+    },
+    {
+      "firstName":"Timo",
+      "lastName":"Silakka",
+      "address": null,
+      "workPhoneNumber": "041 987 65 43",
+      "homePhoneNumber": "+358 000 11 22"
+    }
+  ]
