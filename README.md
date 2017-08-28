@@ -1,5 +1,4 @@
 # AvoimetRajaPinnatJSONTeht1-3
-school problem
 
 Käytin serverina webpack-dev-serveria, joten kloonauksen jälkeen (node modules tässä repossa mukana) npm start
 
